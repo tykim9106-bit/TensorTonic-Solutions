@@ -66,6 +66,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Build a Scalar Expression Graph | Build a scalar expression graph in forward order from leaf records and addition or multiplication operations. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-build-expression-graph |
 | Create an Addition Value Node | Create a scalar addition node that stores its forward value, operation type, and ordered parent identifiers. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-value-addition-node |
 | Create a Multiplication Value Node | Create a scalar multiplication node that stores its forward value, operation type, and ordered parent identifiers. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-value-multiplication-node |
+| Train a Deterministic BPE Vocabulary | Choose the highest count with a lexicographic byte-string tie break, assign the next token ID, and replace non-overlapping matches from left to right. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l01-train-byte-pair-encoding |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/tykim9106)
 <!-- tensortonic:end -->
