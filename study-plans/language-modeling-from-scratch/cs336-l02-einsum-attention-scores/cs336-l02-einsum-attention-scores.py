@@ -12,7 +12,7 @@ def attention_scores(q, k, num_heads):
     k = k.reshape(B, -1, H, head_dim).transpose(1,2)
 
     scores = q @ k.transpose(-1,-2)
-    scores = scores/torch.sqrt(torch.tensor(head_dim, dtype ))
+    scores = scores/torch.sqrt(torch.tensor(head_dim, dtype = q.dtype))
 
     return scores
 
